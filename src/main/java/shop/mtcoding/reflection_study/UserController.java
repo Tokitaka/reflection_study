@@ -1,9 +1,10 @@
 package shop.mtcoding.reflection_study;
 
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
+@Controller
 public class UserController {
     @RequestMapping(uri="/login")
     public void login(){
